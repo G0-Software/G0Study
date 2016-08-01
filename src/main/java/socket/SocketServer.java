@@ -26,6 +26,7 @@ public class SocketServer {
 
             //	Should close, otherwise FIN_WAIT(Client this case) and CLOSE_WAIT(Server this case) will be remained and never been cleared
 			sock.close();
+            // 디벨롭커밋1
         }
     }
 }
